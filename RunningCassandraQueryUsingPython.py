@@ -23,3 +23,8 @@ def get_cassandra_output(employeeName, salary):
     # out ==> a list of string, each row consists atomic rows of the output
 
     out = lines[2:-1][::-1]
+    
+    return out
+    
+
+print(get_cassandra_output('Richard', 20000))
